@@ -1,0 +1,1460 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《一把大提琴的無限可能》邱聖之學生音樂會 2026 觀眾資訊頁">
+  <title>《一把大提琴的無限可能》邱聖之學生音樂會 2026</title>
+  <style>
+    :root {
+      --ink: #2a1b12;
+      --ink-soft: #5d4637;
+      --wood: #7a4f31;
+      --wood-deep: #3d2418;
+      --paper: #f8f1e4;
+      --paper-warm: #efe1ca;
+      --cream: #fffaf0;
+      --gold: #b58439;
+      --gold-soft: #d7b06a;
+      --sage: #6f7659;
+      --stage: #1f1712;
+      --line: rgba(122, 79, 49, 0.2);
+      --shadow: 0 18px 42px rgba(61, 36, 24, 0.14);
+      --shadow-soft: 0 10px 26px rgba(61, 36, 24, 0.1);
+      --radius: 18px;
+      --radius-sm: 12px;
+      --max: 1120px;
+      --font-body: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+      --font-display: var(--font-body);
+      --font-ui: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(122, 79, 49, 0.035) 1px, transparent 1px) 0 0 / 34px 34px,
+        linear-gradient(180deg, var(--paper) 0%, #fbf5eb 44%, var(--paper-warm) 100%);
+      font-family: var(--font-body);
+      line-height: 1.75;
+    }
+
+    body.nav-open {
+      overflow: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(181, 132, 57, 0.22);
+      background: rgba(248, 241, 228, 0.88);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: min(100% - 32px, var(--max));
+      min-height: 68px;
+      margin: 0 auto;
+      gap: 18px;
+    }
+
+    .brand {
+      display: grid;
+      gap: 1px;
+      min-width: 0;
+    }
+
+    .brand strong {
+      overflow: hidden;
+      color: var(--wood-deep);
+      font-family: var(--font-display);
+      font-size: 0.98rem;
+      letter-spacing: 0;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .brand span {
+      color: var(--ink-soft);
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .nav-toggle {
+      display: none;
+      width: 42px;
+      height: 42px;
+      border: 1px solid rgba(122, 79, 49, 0.24);
+      border-radius: 50%;
+      color: var(--wood-deep);
+      background: rgba(255, 250, 240, 0.7);
+      cursor: pointer;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      color: var(--ink-soft);
+      font-size: 0.92rem;
+    }
+
+    .nav-links a {
+      border-radius: 999px;
+      padding: 8px 12px;
+      transition: color 180ms ease, background 180ms ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.is-active {
+      color: var(--wood-deep);
+      background: rgba(181, 132, 57, 0.14);
+    }
+
+    main {
+      overflow: hidden;
+    }
+
+    .section {
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto;
+      padding: 96px 0;
+      scroll-margin-top: 88px;
+    }
+
+    .hero {
+      position: relative;
+      display: grid;
+      min-height: calc(100vh - 68px);
+      padding: 70px 0 52px;
+      place-items: center;
+      color: var(--cream);
+      background:
+        linear-gradient(110deg, rgba(31, 23, 18, 0.92) 0%, rgba(61, 36, 24, 0.82) 46%, rgba(42, 27, 18, 0.52) 100%),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='850' viewBox='0 0 1200 850'%3E%3Crect width='1200' height='850' fill='%23603b24'/%3E%3Cpath d='M0 690 C210 610 310 760 520 680 C710 606 770 490 980 545 C1095 575 1146 510 1200 486 L1200 850 L0 850 Z' fill='%23241710' opacity='.85'/%3E%3Cpath d='M132 0 L240 850 M378 0 L486 850 M640 0 L748 850 M905 0 L1013 850' stroke='%23c99a54' stroke-width='3' opacity='.16'/%3E%3Cpath d='M743 104 C685 144 654 204 657 272 C660 345 703 379 708 445 C716 548 624 594 652 704 C675 793 784 810 849 749 C920 682 884 590 838 543 C796 500 779 474 811 407 C838 350 895 314 875 229 C858 158 809 113 743 104 Z' fill='%23a86f3e' opacity='.36'/%3E%3Cpath d='M753 92 C731 211 735 338 757 467 C772 554 803 646 792 778' fill='none' stroke='%23f5d894' stroke-width='7' stroke-linecap='round' opacity='.55'/%3E%3Ccircle cx='741' cy='82' r='18' fill='%23d7b06a' opacity='.5'/%3E%3Cpath d='M596 199 C654 238 680 292 671 360 M874 164 C814 216 791 275 808 342' fill='none' stroke='%23f7e7ca' stroke-width='3' opacity='.35'/%3E%3Cpath d='M80 135 H1130 M55 280 H1128 M0 424 H1150 M94 568 H1200' stroke='%23f7e7ca' stroke-width='2' opacity='.08'/%3E%3C/svg%3E") center / cover;
+      isolation: isolate;
+    }
+
+    .hero::after {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 120px;
+      background: linear-gradient(180deg, transparent, var(--paper));
+      content: "";
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero::before {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 24% 28%, rgba(247, 231, 202, 0.22), transparent 32%),
+        radial-gradient(circle at 74% 18%, rgba(215, 176, 106, 0.18), transparent 26%),
+        linear-gradient(180deg, rgba(255, 250, 240, 0.04), transparent 48%);
+      content: "";
+      mix-blend-mode: screen;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      width: min(100% - 32px, var(--max));
+      grid-template-columns: minmax(0, 1.05fr) minmax(270px, 0.55fr);
+      align-items: end;
+      gap: clamp(32px, 5vw, 64px);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 22px;
+      color: var(--gold-soft);
+      font-family: var(--font-ui);
+      font-size: 0.82rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 36px;
+      height: 1px;
+      background: currentColor;
+      content: "";
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin-bottom: 16px;
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 8.8vw, 6.6rem);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      line-height: 1.08;
+    }
+
+    .hero-subtitle {
+      margin-bottom: 22px;
+      color: #f4dfb5;
+      font-family: var(--font-display);
+      font-size: clamp(1.2rem, 3vw, 2rem);
+      font-weight: 600;
+    }
+
+    .hero-copy {
+      max-width: 700px;
+      margin-bottom: 32px;
+      color: rgba(255, 250, 240, 0.88);
+      font-size: 1.08rem;
+    }
+
+    .hero-actions,
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      min-height: 46px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(181, 132, 57, 0.42);
+      border-radius: 999px;
+      padding: 10px 20px;
+      color: var(--wood-deep);
+      background: var(--cream);
+      box-shadow: var(--shadow-soft);
+      cursor: pointer;
+      font-family: var(--font-ui);
+      font-weight: 600;
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .btn.secondary {
+      color: var(--cream);
+      background: rgba(255, 250, 240, 0.08);
+    }
+
+    .btn.ghost {
+      color: var(--wood-deep);
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .hero-panel {
+      border: 1px solid rgba(247, 231, 202, 0.24);
+      border-radius: var(--radius);
+      padding: 28px;
+      background: rgba(31, 23, 18, 0.58);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.24);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-panel .date {
+      margin-bottom: 8px;
+      color: var(--gold-soft);
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .hero-panel p {
+      margin-bottom: 10px;
+      color: rgba(255, 250, 240, 0.84);
+      font-family: var(--font-ui);
+    }
+
+    .section-head {
+      display: grid;
+      max-width: 760px;
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+
+    .kicker {
+      color: var(--gold);
+      font-family: var(--font-ui);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: var(--wood-deep);
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5.2vw, 3.4rem);
+      letter-spacing: 0.02em;
+      line-height: 1.18;
+    }
+
+    .lead {
+      color: var(--ink-soft);
+      font-size: 1.08rem;
+      max-width: 760px;
+    }
+
+    .info-panel {
+      display: grid;
+      gap: 0;
+      overflow: hidden;
+      border: 1px solid rgba(122, 79, 49, 0.14);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 240, 0.78);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .feature-card,
+    .performer-card,
+    .notice-card,
+    .contact-card,
+    .map-card {
+      border: 1px solid rgba(122, 79, 49, 0.14);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 240, 0.76);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .info-row {
+      display: grid;
+      grid-template-columns: 132px minmax(0, 1fr);
+      gap: 22px;
+      align-items: start;
+      padding: 20px 24px;
+      border-bottom: 1px solid rgba(122, 79, 49, 0.12);
+    }
+
+    .info-row:last-child {
+      border-bottom: 0;
+    }
+
+    .info-row span,
+    .timeline-time,
+    .contact-card span {
+      color: var(--gold);
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .info-row strong {
+      display: block;
+      color: var(--wood-deep);
+      font-size: 1.14rem;
+      line-height: 1.42;
+    }
+
+    .concept {
+      position: relative;
+      border-block: 1px solid rgba(122, 79, 49, 0.14);
+      background: rgba(255, 250, 240, 0.44);
+    }
+
+    .concept-inner {
+      display: grid;
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto;
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: clamp(34px, 5vw, 58px);
+      padding: 96px 0;
+    }
+
+    .concept-mark {
+      display: grid;
+      min-height: 310px;
+      border: 1px solid rgba(181, 132, 57, 0.24);
+      border-radius: var(--radius);
+      place-items: center;
+      background:
+        linear-gradient(135deg, rgba(61, 36, 24, 0.94), rgba(122, 79, 49, 0.8)),
+        repeating-linear-gradient(90deg, transparent 0 26px, rgba(247, 231, 202, 0.12) 26px 28px);
+      box-shadow: var(--shadow);
+    }
+
+    .concept-mark span {
+      display: block;
+      width: min-content;
+      color: #f4dfb5;
+      font-size: clamp(3.1rem, 9vw, 5.2rem);
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1.1;
+      text-align: center;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .feature-card {
+      display: grid;
+      min-height: 240px;
+      padding: 22px;
+      transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease, background 240ms ease;
+    }
+
+    .feature-card:hover,
+    .performer-card:hover {
+      border-color: rgba(181, 132, 57, 0.28);
+      background: rgba(255, 250, 240, 0.9);
+      transform: translateY(-3px);
+      box-shadow: 0 16px 36px rgba(61, 36, 24, 0.13);
+    }
+
+    .feature-label {
+      display: inline-grid;
+      width: 42px;
+      height: 42px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      place-items: center;
+      color: var(--cream);
+      background: var(--wood);
+      font-family: var(--font-ui);
+      font-weight: 700;
+    }
+
+    .feature-card h3,
+    .performer-card h3,
+    .map-card h3 {
+      margin-bottom: 10px;
+      color: var(--wood-deep);
+      font-family: var(--font-display);
+      font-size: 1.26rem;
+      line-height: 1.3;
+    }
+
+    .feature-card p,
+    .performer-card p,
+    .map-card p,
+    .notice-card li,
+    .contact-card p {
+      color: var(--ink-soft);
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 22px;
+      margin-top: 30px;
+    }
+
+    .timeline::before {
+      position: absolute;
+      top: 14px;
+      bottom: 14px;
+      left: 86px;
+      width: 2px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, transparent, rgba(181, 132, 57, 0.52), rgba(122, 79, 49, 0.22), transparent);
+      content: "";
+    }
+
+    .timeline-item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr);
+      gap: 26px;
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 550ms ease, transform 550ms ease;
+    }
+
+    .timeline-item.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .timeline-time {
+      display: inline-flex;
+      width: fit-content;
+      margin-top: 14px;
+      border: 1px solid rgba(181, 132, 57, 0.22);
+      border-radius: 999px;
+      padding: 6px 10px;
+      color: var(--wood);
+      background: rgba(255, 250, 240, 0.72);
+      font-size: 0.92rem;
+      letter-spacing: 0.04em;
+      box-shadow: 0 8px 18px rgba(61, 36, 24, 0.07);
+    }
+
+    .timeline-content {
+      position: relative;
+      border: 1px solid rgba(122, 79, 49, 0.14);
+      border-radius: var(--radius);
+      padding: 24px 26px;
+      background:
+        radial-gradient(circle at 100% 0, rgba(215, 176, 106, 0.12), transparent 34%),
+        rgba(255, 250, 240, 0.84);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .timeline-content::before {
+      position: absolute;
+      top: 24px;
+      left: -30px;
+      width: 15px;
+      height: 15px;
+      border: 3px solid var(--paper);
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 0 1px rgba(181, 132, 57, 0.3);
+      content: "";
+    }
+
+    .timeline-content h3 {
+      margin-bottom: 10px;
+      color: var(--wood-deep);
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      letter-spacing: 0.01em;
+    }
+
+    .timeline-note,
+    .program-meta {
+      margin: 0 0 12px;
+      color: var(--gold);
+      font-family: var(--font-ui);
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
+    .program-meta {
+      margin: 14px 0 0;
+      color: var(--ink-soft);
+      letter-spacing: 0.02em;
+    }
+
+    .program-list {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: var(--ink-soft);
+      font-family: var(--font-ui);
+      font-size: 0.96rem;
+      line-height: 1.62;
+    }
+
+    .program-list li {
+      position: relative;
+      padding-left: 18px;
+    }
+
+    .program-list li::before {
+      position: absolute;
+      top: 0.75em;
+      left: 0;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold-soft);
+      content: "";
+    }
+
+    .performer-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .performer-card {
+      padding: 24px;
+      transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease, background 240ms ease;
+    }
+
+    .performer-card::before {
+      display: block;
+      width: 44px;
+      height: 3px;
+      margin-bottom: 18px;
+      background: var(--gold);
+      content: "";
+    }
+
+    .map-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .map-card {
+      padding: 26px;
+    }
+
+    .map-visual {
+      display: grid;
+      min-height: 330px;
+      border-radius: var(--radius);
+      overflow: hidden;
+      place-items: center;
+      color: var(--cream);
+      background:
+        linear-gradient(135deg, rgba(61, 36, 24, 0.82), rgba(111, 118, 89, 0.76)),
+        linear-gradient(90deg, rgba(255, 250, 240, 0.14) 1px, transparent 1px) 0 0 / 42px 42px,
+        linear-gradient(0deg, rgba(255, 250, 240, 0.12) 1px, transparent 1px) 0 0 / 42px 42px;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .map-visual strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #f4dfb5;
+      font-size: clamp(2rem, 6vw, 4rem);
+      line-height: 1.1;
+    }
+
+    .map-visual span {
+      display: block;
+      max-width: 260px;
+      color: rgba(255, 250, 240, 0.86);
+      font-family: var(--font-ui);
+    }
+
+    .notice-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 560px);
+      gap: 18px;
+    }
+
+    .notice-card {
+      padding: 24px;
+    }
+
+    .notice-card ul {
+      display: grid;
+      gap: 14px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .notice-card li {
+      position: relative;
+      padding-left: 30px;
+    }
+
+    .notice-card li::before {
+      position: absolute;
+      top: 0.2em;
+      left: 0;
+      display: grid;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      place-items: center;
+      color: var(--cream);
+      background: var(--sage);
+      content: "✓";
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      line-height: 1;
+    }
+
+    .contact-card {
+      padding: 26px;
+    }
+
+    .contact-card p {
+      margin-bottom: 0;
+    }
+
+    .placeholder,
+    .social-link {
+      display: inline-flex;
+      margin-top: 10px;
+      border: 1px dashed rgba(122, 79, 49, 0.35);
+      border-radius: 999px;
+      padding: 7px 12px;
+      color: var(--wood);
+      background: rgba(255, 250, 240, 0.7);
+      font-family: var(--font-ui);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .social-link {
+      border-style: solid;
+      color: var(--cream);
+      background: var(--wood);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .social-link:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .footer {
+      position: relative;
+      overflow: hidden;
+      padding: 72px 24px 78px;
+      color: var(--cream);
+      background:
+        radial-gradient(circle at 50% 0, rgba(215, 176, 106, 0.24), transparent 34%),
+        linear-gradient(135deg, var(--stage), #321f16 58%, var(--wood-deep));
+      text-align: center;
+    }
+
+    .footer::before {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: min(560px, 78vw);
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(244, 223, 181, 0.72), transparent);
+      content: "";
+      transform: translateX(-50%);
+    }
+
+    .footer strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #f4dfb5;
+      font-family: var(--font-display);
+      font-size: clamp(1.35rem, 4vw, 1.85rem);
+      letter-spacing: 0.04em;
+    }
+
+    .footer p {
+      margin: 0 auto;
+      max-width: 620px;
+      color: rgba(255, 250, 240, 0.76);
+    }
+
+    .to-top {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 18;
+      display: grid;
+      width: 46px;
+      height: 46px;
+      border: 1px solid rgba(181, 132, 57, 0.34);
+      border-radius: 50%;
+      place-items: center;
+      color: var(--cream);
+      background: var(--wood-deep);
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(12px);
+      transition: opacity 180ms ease, transform 180ms ease;
+    }
+
+    .to-top.is-visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .toast {
+      position: fixed;
+      right: 18px;
+      bottom: 76px;
+      z-index: 19;
+      border-radius: 999px;
+      padding: 10px 15px;
+      color: var(--cream);
+      background: rgba(42, 27, 18, 0.92);
+      box-shadow: var(--shadow);
+      font-family: var(--font-ui);
+      font-size: 0.9rem;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: opacity 180ms ease, transform 180ms ease;
+    }
+
+    .toast.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 550ms ease, transform 550ms ease;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 1040px) {
+      .feature-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .feature-card:last-child {
+        grid-column: 1 / -1;
+      }
+
+      .performer-grid,
+      .notice-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .contact-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 820px) {
+      .nav-toggle {
+        display: grid;
+        place-items: center;
+      }
+
+      .nav-links {
+        position: fixed;
+        inset: 68px 16px auto;
+        display: grid;
+        gap: 6px;
+        border: 1px solid rgba(122, 79, 49, 0.16);
+        border-radius: var(--radius);
+        padding: 14px;
+        background: rgba(255, 250, 240, 0.96);
+        box-shadow: var(--shadow);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity 180ms ease, transform 180ms ease;
+      }
+
+      .nav-links.is-open {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-links a {
+        padding: 12px;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 82px 0 64px;
+      }
+
+      .hero-inner,
+      .concept-inner,
+      .map-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-panel {
+        max-width: 420px;
+      }
+
+      .section,
+      .concept-inner {
+        padding: 74px 0;
+      }
+
+      .section-head {
+        margin-bottom: 32px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .nav-wrap,
+      .section,
+      .hero-inner,
+      .concept-inner {
+        width: min(100% - 24px, var(--max));
+      }
+
+      .brand strong {
+        max-width: 240px;
+        font-size: 0.9rem;
+      }
+
+      .brand span {
+        font-size: 0.7rem;
+      }
+
+      h1 {
+        font-size: clamp(2.55rem, 15vw, 4.7rem);
+        letter-spacing: 0.005em;
+        line-height: 1.1;
+      }
+
+      h2 {
+        letter-spacing: 0.01em;
+        line-height: 1.22;
+      }
+
+      .hero-copy,
+      .lead {
+        font-size: 1rem;
+        line-height: 1.8;
+      }
+
+      .hero-panel,
+      .feature-card,
+      .performer-card,
+      .notice-card,
+      .contact-card,
+      .map-card {
+        padding: 20px;
+      }
+
+      .section {
+        padding: 64px 0;
+      }
+
+      .section-head {
+        gap: 10px;
+        margin-bottom: 26px;
+      }
+
+      .hero-actions,
+      .button-row {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .feature-grid,
+      .performer-grid,
+      .notice-grid,
+      .contact-grid {
+        gap: 14px;
+        grid-template-columns: 1fr;
+      }
+
+      .feature-card:last-child {
+        grid-column: auto;
+      }
+
+      .info-row {
+        grid-template-columns: 1fr;
+        gap: 6px;
+        padding: 18px 20px;
+      }
+
+      .feature-label {
+        margin-bottom: 16px;
+      }
+
+      .timeline::before {
+        left: 18px;
+      }
+
+      .timeline-item {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding-left: 38px;
+      }
+
+      .timeline-time {
+        margin-top: 0;
+      }
+
+      .timeline-content {
+        padding: 20px 18px;
+      }
+
+      .program-list {
+        gap: 8px;
+      }
+
+      .timeline-content::before {
+        top: -28px;
+        left: -27px;
+      }
+
+      .map-visual {
+        min-height: 240px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#hero" aria-label="回到首頁">
+        <strong>《一把大提琴的無限可能》</strong>
+        <span>邱聖之學生音樂會 2026</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="開啟導覽選單" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="主要導覽">
+        <a href="#info">活動資訊</a>
+        <a href="#program">節目流程</a>
+        <a href="#performers">演出者</a>
+        <a href="#traffic">交通資訊</a>
+        <a href="#contact">聯絡資訊</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Student Concert 2026</p>
+          <h1>《一把大提琴的無限可能》</h1>
+          <p class="hero-subtitle">邱聖之學生音樂會 2026</p>
+          <p class="hero-copy">一場從學生演出出發，延伸至大提琴重奏、客家原創、琵琶跨界與全體大合奏的音樂會。讓我們一起看見大提琴不只是古典，而是一種跨越風格與文化的聲音語言。</p>
+          <div class="hero-actions">
+            <a class="btn" href="#program">查看節目流程</a>
+            <a class="btn secondary" href="#traffic">交通資訊</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="重點活動資訊">
+          <div class="date">2026/8/30（日）</div>
+          <p>正式演出 14:00 開始</p>
+          <p>禾禾文化空間｜黑盒子</p>
+          <p>104臺北市中山區南京東路三段9號4樓</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="info">
+      <div class="section-head reveal">
+        <span class="kicker">Concert Info</span>
+        <h2>活動資訊</h2>
+      </div>
+      <div class="info-panel reveal">
+        <div class="info-row">
+          <span>日期</span>
+          <strong>2026/8/30（日）</strong>
+        </div>
+        <div class="info-row">
+          <span>時間</span>
+          <strong>14:00 開始</strong>
+        </div>
+        <div class="info-row">
+          <span>地點</span>
+          <strong>禾禾文化空間｜黑盒子</strong>
+        </div>
+        <div class="info-row">
+          <span>地址</span>
+          <strong>104臺北市中山區南京東路三段9號4樓</strong>
+        </div>
+        <div class="info-row">
+          <span>形式</span>
+          <strong>學生演出｜重奏｜客家原創｜琵琶 × 大提琴｜全體大合奏</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="concept" id="concept">
+      <div class="concept-inner">
+        <div class="concept-mark reveal" aria-hidden="true">
+          <span>Cello<br>Beyond</span>
+        </div>
+        <div class="reveal">
+          <span class="kicker">Concept</span>
+          <h2>大提琴的不同樣貌</h2>
+          <p class="lead">這場音樂會不只是學生成果發表，而是一場以「邱聖之 Sandy Chiu」為核心的音樂品牌發表。透過學生獨奏、親子二重奏、大提琴重奏、好日樂團 HoNi 客家原創樂團、劉佳瑩 Joy 琵琶跨界，以及最後全體大合奏，呈現大提琴在古典、客家原創、國樂、影視配樂與流行音樂中的多元可能。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="highlights">
+      <div class="section-head reveal">
+        <span class="kicker">Highlights</span>
+        <h2>節目亮點</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <span class="feature-label">A</span>
+          <h3>學生演出</h3>
+          <p>從初階到高階，包含獨奏、二重奏、小重奏與協奏曲片段。</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-label">B</span>
+          <h3>大提琴重奏</h3>
+          <p>包含《風流寡婦》與《Libertango》，展現大提琴合奏的層次與張力。</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-label">C</span>
+          <h3>好日樂團 HoNi</h3>
+          <p>客家原創樂團，以 folk 與原創音樂為核心，透過主唱、吉他、大提琴與鼓手，呈現溫暖、生活感與故事性的音樂風格。</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-label">D</span>
+          <h3>東・西</h3>
+          <p>劉佳瑩 Joy 琵琶 × 邱聖之 Sandy Chiu 大提琴，呈現中西融合的跨界聲音。</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-label">E</span>
+          <h3>Finale</h3>
+          <p>全體大合奏《Game of Thrones》邱聖之 Sandy Chiu 改編版，作為整場高潮。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="program">
+      <div class="section-head reveal">
+        <span class="kicker">Program</span>
+        <h2>節目流程</h2>
+        <p class="lead">以下為觀眾版流程，實際演出順序與時間將以現場安排為準。</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-time">14:00</div>
+          <div class="timeline-content">
+            <h3>Opening 開場</h3>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-time">14:03</div>
+          <div class="timeline-content">
+            <h3>PART 1｜Beginning 起點</h3>
+            <ul class="program-list">
+              <li>黃咨湉｜Gavotte No.2</li>
+              <li>謝甯安｜第一號小步舞曲</li>
+              <li>謝昀璟｜Dance</li>
+              <li>呂玟槿｜土耳其進行曲</li>
+              <li>思霈 × 邱聖之 Sandy Chiu｜Can’t Help Falling in Love</li>
+              <li>魏詩澄｜Bach Cello Suite No.3 Bourrée 1&amp;2</li>
+              <li>魏詩澄 × 詩澄爸爸｜聖塔路奇亞大提琴二重奏</li>
+              <li>翊瑄媽媽 × 邱聖之 Sandy Chiu｜威廉泰爾、望春風</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-time">14:35</div>
+          <div class="timeline-content">
+            <h3>PART 2｜Growing 成長</h3>
+            <ul class="program-list">
+              <li>李沛潔｜Breval DM No.2 III</li>
+              <li>余廷宸｜Breval F大調協奏曲</li>
+              <li>品然｜詼諧曲</li>
+              <li>禾立｜獵人合唱</li>
+              <li>林冠勛｜A大調奏鳴曲</li>
+              <li>李晨瑋 × 李晨瑜｜Elegie 大提琴二重奏</li>
+              <li>邱瑩涵｜Vocalist</li>
+              <li>大提琴重奏 2｜風流寡婦</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-time">15:13</div>
+          <div class="timeline-content">
+            <h3>PART 3｜Beyond 突破</h3>
+            <ul class="program-list">
+              <li>大提琴重奏 1｜Libertango</li>
+              <li>陳羿瑄｜Goltermann No.4 III</li>
+              <li>于巧潔｜Haydn 大提琴協奏曲</li>
+              <li>陳禹佑｜Lalo 大提琴協奏曲</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-time">15:41</div>
+          <div class="timeline-content">
+            <h3>PART 4｜HoNi Folk Stage</h3>
+            <p class="timeline-note">客家原創樂團</p>
+            <ul class="program-list">
+              <li>好日樂團 HoNi｜原創曲 1</li>
+              <li>好日樂團 HoNi｜原創曲 2</li>
+            </ul>
+            <p class="program-meta">編制：主唱／吉他／大提琴／鼓手</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-time">15:56</div>
+          <div class="timeline-content">
+            <h3>PART 5｜東・西</h3>
+            <ul class="program-list">
+              <li>劉佳瑩 Joy × 邱聖之 Sandy Chiu｜《東・西》第一首</li>
+              <li>劉佳瑩 Joy × 邱聖之 Sandy Chiu｜《東・西》第二首</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-time">16:08</div>
+          <div class="timeline-content">
+            <h3>PART 6｜Finale</h3>
+            <ul class="program-list">
+              <li>全體大合奏｜Game of Thrones 邱聖之 Sandy Chiu 改編版</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-time">16:20</div>
+          <div class="timeline-content">
+            <h3>Closing</h3>
+            <ul class="program-list">
+              <li>邱聖之 Sandy Chiu 感謝與分享</li>
+              <li>自由交流／拍照</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="performers">
+      <div class="section-head reveal">
+        <span class="kicker">Artists</span>
+        <h2>演出者介紹</h2>
+      </div>
+      <div class="performer-grid">
+        <article class="performer-card reveal">
+          <h3>邱聖之 Sandy Chiu</h3>
+          <p>大提琴演奏者、音樂教育者、好日樂團 HoNi 大提琴手。以古典演奏為基礎，持續探索大提琴在流行、客家原創、國樂與跨界創作中的不同可能。</p>
+        </article>
+        <article class="performer-card reveal">
+          <h3>好日樂團 HoNi</h3>
+          <p>好日樂團 HoNi 為客家原創樂團，以 folk 與原創音樂為核心，透過主唱、吉他、大提琴與鼓手的編制，呈現溫暖、生活感與故事性的音樂風格。本次演出將帶來兩首原創作品，讓觀眾看見大提琴在客家原創音樂與 folk 曲風中的不同樣貌。</p>
+        </article>
+        <article class="performer-card reveal">
+          <h3>劉佳瑩 Joy</h3>
+          <p>劉佳瑩 Joy 為琵琶演奏者，擅長國樂與跨界演出。本次將與邱聖之 Sandy Chiu 共同呈現《東・西》跨界段落，透過琵琶與大提琴的聲音對話，展現東方與西方音色的交會與融合。</p>
+        </article>
+        <article class="performer-card reveal">
+          <h3>學生演出者</h3>
+          <p>本次學生演出包含獨奏、二重奏、小重奏、協奏曲與 Vocal 演出，呈現不同階段的學習成果與舞台經驗。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="traffic">
+      <div class="section-head reveal">
+        <span class="kicker">Location</span>
+        <h2>交通資訊</h2>
+      </div>
+      <div class="map-layout">
+        <article class="map-card reveal">
+          <h3>禾禾文化空間｜黑盒子</h3>
+          <p id="venue-address">104臺北市中山區南京東路三段9號4樓</p>
+          <div class="button-row">
+            <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=104臺北市中山區南京東路三段9號4樓" target="_blank" rel="noopener">Google Map</a>
+            <button class="btn ghost" type="button" data-copy-address>複製地址</button>
+          </div>
+          <p class="lead" style="margin-top: 24px;">建議出發前先確認交通時間；場館位於南京東路三段，抵達後請上 4 樓前往黑盒子空間。</p>
+        </article>
+        <div class="map-visual reveal" aria-label="場館位置示意">
+          <div>
+            <strong>4F</strong>
+            <span>南京東路三段 9 號<br>禾禾文化空間｜黑盒子</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="notice">
+      <div class="section-head reveal">
+        <span class="kicker">Notes</span>
+        <h2>觀眾注意事項</h2>
+      </div>
+      <div class="notice-grid">
+        <article class="notice-card reveal">
+          <ul>
+            <li>建議提前 15–20 分鐘抵達</li>
+            <li>演出期間請將手機轉為靜音</li>
+          </ul>
+        </article>
+        <article class="notice-card reveal">
+          <ul>
+            <li>拍照請勿使用閃光燈</li>
+            <li>演出中請盡量避免走動</li>
+          </ul>
+        </article>
+        <article class="notice-card reveal">
+          <ul>
+            <li>活動結束後可自由交流與拍照</li>
+            <li>參演人員離場前請記得領取餐盒</li>
+          </ul>
+        </article>
+        <article class="notice-card reveal">
+          <ul>
+            <li>演出結束後，歡迎觀眾自由交流與拍照</li>
+            <li>期待透過這場音樂會，讓更多人認識大提琴不同的樣貌</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-head reveal">
+        <span class="kicker">More Info</span>
+        <h2>聯絡與延伸資訊</h2>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-card reveal">
+          <span>Contact</span>
+          <h3>活動聯絡方</h3>
+          <p>Email：<a href="mailto:d7club.9470d@gmail.com">d7club.9470d@gmail.com</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <strong>《一把大提琴的無限可能》</strong>
+    <p>邱聖之學生音樂會 2026</p>
+    <p>讓大提琴從古典出發，走向更寬廣的聲音世界。</p>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="回到頂部">↑</button>
+  <div class="toast" role="status" aria-live="polite">地址已複製</div>
+
+  <script>
+    const navToggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelector(".nav-links");
+    const toTop = document.querySelector(".to-top");
+    const toast = document.querySelector(".toast");
+    const copyButton = document.querySelector("[data-copy-address]");
+    const address = "104臺北市中山區南京東路三段9號4樓";
+    const trackedLinks = [...document.querySelectorAll(".nav-links a")];
+    const trackedSections = trackedLinks
+      .map((link) => document.querySelector(link.getAttribute("href")))
+      .filter(Boolean);
+
+    navToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("is-open");
+      document.body.classList.toggle("nav-open", isOpen);
+      navToggle.setAttribute("aria-expanded", String(isOpen));
+      navToggle.textContent = isOpen ? "×" : "☰";
+    });
+
+    trackedLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("is-open");
+        document.body.classList.remove("nav-open");
+        navToggle.setAttribute("aria-expanded", "false");
+        navToggle.textContent = "☰";
+      });
+    });
+
+    const showToast = (message) => {
+      toast.textContent = message;
+      toast.classList.add("is-visible");
+      window.clearTimeout(showToast.timer);
+      showToast.timer = window.setTimeout(() => {
+        toast.classList.remove("is-visible");
+      }, 1800);
+    };
+
+    copyButton.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(address);
+        showToast("地址已複製");
+      } catch (error) {
+        const helper = document.createElement("input");
+        helper.value = address;
+        document.body.appendChild(helper);
+        helper.select();
+        document.execCommand("copy");
+        helper.remove();
+        showToast("地址已複製");
+      }
+    });
+
+    toTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.14 });
+
+    document.querySelectorAll(".reveal, .timeline-item").forEach((item) => {
+      revealObserver.observe(item);
+    });
+
+    const setActiveNav = () => {
+      const top = window.scrollY + 120;
+      let current = trackedSections[0]?.id;
+
+      trackedSections.forEach((section) => {
+        if (section.offsetTop <= top) current = section.id;
+      });
+
+      trackedLinks.forEach((link) => {
+        link.classList.toggle("is-active", link.getAttribute("href") === `#${current}`);
+      });
+
+      toTop.classList.toggle("is-visible", window.scrollY > 520);
+    };
+
+    window.addEventListener("scroll", setActiveNav, { passive: true });
+    setActiveNav();
+  </script>
+</body>
+</html>
